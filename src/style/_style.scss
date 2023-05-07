@@ -1,0 +1,37 @@
+body {
+  font-family: 'Montserrat';
+  background-color: $back;
+  color: $main;
+
+}
+.contaner{
+  max-width: 1380px;
+}
+.header{
+  background-color: $main;
+  display:grid;
+  grid-template-columns: 4fr 7fr;
+  align-items: center;
+}
+
+.navigation__list{
+    list-style: none;
+    display: flex;
+    gap:8px;
+  }
+  .navigation__item{
+    width: 152px;
+    height: 50px;
+    border: 2px solid $back;
+    border-radius: 80px;
+    text-align: center;
+    justify-items: center;
+  }
+  .hero{
+    max-height: 780px;
+
+  }
+  .hero__title{
+    padding-left: 0;
+    color: $second;
+  }
